@@ -22,7 +22,7 @@ class CashRegister
   end
   
   def items
-    @items = add_item.count
+    @items
   end
   # def void_last_transaction
   #   if add_item(qty).each = 0 then total = 0
