@@ -28,6 +28,8 @@ class CashRegister
   end
   
   def void_last_transaction
+    price = self.add_item(price)
+    qty = self.add_item(qty)
     @void_last_transaction = price * qty
     @total -= @void_last_transaction
   end
