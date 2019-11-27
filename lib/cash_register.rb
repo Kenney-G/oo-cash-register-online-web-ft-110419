@@ -25,9 +25,9 @@ class CashRegister
   def items
     @items
   end
-  # def void_last_transaction
-  #   if add_item(qty).each = 0 then total = 0
-  #   end
-  # end
+  def void_last_transaction
+    if add_item(qty).each = 0 then total = 0
+    end
+  end
 
 end
